@@ -52,16 +52,16 @@ public class DisplayTransaction extends HttpServlet {
                 }
                 pw.println("</table>");
             }
-            pw.print("<a href='DisplayServlet?page=1'>First </a> ");
+            pw.print("<a href='DisplayTransaction?page=1'>First </a> ");
       
             
-            pw.print("<a href='DisplayServlet?page=1'>1</a> ");
-            pw.print("<a href='DisplayServlet?page=2'>2</a> ");
-            pw.print("<a href='DisplayServlet?page=3'>3</a> ");
-            pw.print("<a href='DisplayServlet?page=4'>4</a> ");
+            pw.print("<a href='DisplayTransaction?page=1'>1</a> ");
+            pw.print("<a href='DisplayTransaction?page=2'>2</a> ");
+            pw.print("<a href='DisplayTransaction?page=3'>3</a> ");
+            pw.print("<a href='DisplayTransaction?page=4'>4</a> ");
             if (page < lastPage) {
                
-                pw.print("<a href='DisplayServlet?page=" + lastPage + "'> Last </a> ");
+                pw.print("<a href='DisplayTransaction?page=" + lastPage + "'> Last </a> ");
             }
             pw.print("</div>");
 
